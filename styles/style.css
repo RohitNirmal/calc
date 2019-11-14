@@ -1,0 +1,53 @@
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 5px;
+  background-color: #2f2fa2;
+  border: 2px solid grey;
+ }
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.button{
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  color: white;
+  background: #607d8b;
+  border: none;
+}
+
+.textview{
+  margin: 2px;
+  width: 250px;
+  font-size: 25px;
+  padding: 5px;
+  color: #607d8b;
+  border: 1px solid black;
+}
+
+.title{
+  position: absolute;
+  font-size: 30px;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.programmer{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+}
+
+.bg{
+  height: 100vh;
+  background: linear-gradient(#13547a,#80d0c7);
+}
